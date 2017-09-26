@@ -1,0 +1,9 @@
+Host joel_personal
+  User bitbucket
+  HostName bitbucket.org
+  IdentityFile ~/.ssh/id_rsa
+
+Host joel_xaxis
+  User bitbucket
+  HostName bitbucket.org
+  IdentityFile ~/.ssh/id_rsa_xal
