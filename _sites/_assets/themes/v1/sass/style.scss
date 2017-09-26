@@ -1,0 +1,214 @@
+// Variables //
+
+$font-stack: 'Open Sans', sans-serif, Helvetica Neue, Helvetica, Arial;
+$bg-main:white;
+$bg-sec:#414141;
+$bg-alt:#ebebeb;
+$font-color-primary:#000;
+$font-color-alt:#FFF;
+$link-color:#7bb3d1;
+$link-hover:underline;
+
+
+// Start styling for CSS //
+
+body {
+	background-color:$bg-main;
+	font-family:$font-stack !important;
+}
+
+// Start Imports //
+
+@import "typography";
+@import "mixins";
+
+/*
+/////////////////////////////////////////////////
+////////// HEADER & NAVBAR STYLES ///////////////
+/////////////////////////////////////////////////
+*/
+
+header {
+	background-color:$bg-sec;
+	padding:20px 0;
+}
+
+/*
+////////////////////////////////////////
+////////// MAIN STYLES /////////////////
+////////////////////////////////////////
+*/
+
+.btn {
+	@include border-radius(0px); 
+	@include transition(.4s ease); 
+	font-weight:400;
+}
+
+.btn-xs {
+	padding:4px 8px !important;
+	font-size:10px;
+}
+
+.btn-sm {
+	padding:4px 10px !important;
+	font-size:13px;
+}
+
+.btn-md {
+	padding:6px 15px !important;
+	font-size:14px;
+}
+
+.btn-lg {
+	padding:8px 18px !important;
+	font-size:16px;
+}
+
+/*
+////////////////////////////////////////
+////////// MAIN STYLES /////////////////
+////////////////////////////////////////
+*/
+
+main {
+	padding:20px 0;
+	
+	table {
+		tbody {
+			tr {
+				border-bottom:1px #CCC solid;
+				padding:0px;
+
+				th {
+					font-weight: 500;
+					font-size: 20px;
+					background-color:#414141;
+					color: white;
+					border-right:1px #FFF solid;
+					padding:10px 0 10px 10px;
+
+					@media only screen and (max-width: 767px) {
+						font-size: 16px;
+					}
+
+				}
+
+				th:last-child {
+					border-right:none;
+				}
+
+				td {
+					border-right:1px #CCC solid;
+					padding:10px;
+				}
+
+				td:first-child {
+					font-weight: bold;
+				}
+
+				td:last-child {
+					border-right:none;
+				}
+			}
+
+			tr:last-child {
+				border-bottom:none;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 767px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+	
+}
+
+/*
+////////////////////////////////////////
+////////// FOOTER STYLES ///////////////
+////////////////////////////////////////
+*/
+
+footer {
+	padding:10px 0;
+
+	.footer-top {
+		background-color: $bg-alt;
+		padding:20px 0;
+
+		h4 {
+			margin-bottom: 20px;
+			margin-top: 0px;
+		}
+
+		.list-inline {
+			margin-bottom: 0px;
+
+			li.social {
+				background-color: $bg-sec;
+				width: 32px;
+				height: 32px;
+				padding-top:5px;
+				text-align: center;
+				margin:0 5px;
+				color: white;
+				
+				a {
+					display: block;
+					color: white;
+					@include transition(.4s ease);
+				}
+
+			}
+
+			li.social:hover {
+				a {
+					color: $link-color;
+				}
+			}
+		}
+	}
+
+	.footer-bottom {
+		background-color:$bg-sec;
+
+		h4 {
+			font-size: 11px;
+			color: white;
+			line-height: 16px;
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 767px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+	
+}
+
+// End Imports //
+@import "colors";
+@import "overrides";
+

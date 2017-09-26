@@ -1,0 +1,54 @@
+// MOBILE TEXT STYLES
+
+@media only screen and (max-width: 767px) {
+	.mobile-text-center {text-align:center;}
+}
+
+// TEXT STYLES START
+
+@media only screen and (max-width: 767px) {
+	p, ul li, address {font-size:16px; font-weight:400;}
+
+	h1 {font-size:65px; font-weight:200;}
+	h2 {font-size:30px; line-height: 38px; font-weight:500; }
+
+	h3 {font-size:22px; font-weight:400;}
+	h4 {font-size:22px; font-weight:400;}
+	h5 {font-size:14px; font-weight:400;}
+	h6 {font-size:10px; line-height: 16px; font-weight:400;}
+}
+
+@media only screen and (min-width: 767px) {
+	p, ul li, address {font-size:16px; font-weight:400;}
+
+	h1 {font-size:65px; font-weight:200;}
+	h2 {font-size:30px; line-height: 38px; font-weight:500; }
+
+	h3 {font-size:22px; font-weight:400;}
+	h4 {font-size:22px; font-weight:400;}
+	h5 {font-size:14px; font-weight:400;}
+	h6 {font-size:10px; line-height: 16px; font-weight:400;}
+}
+
+@media only screen and (min-width: 992px) {
+	p, ul li, address {font-size:16px; font-weight:400;}
+
+	h1 {font-size:65px; font-weight:200;}
+	h2 {font-size:30px; line-height: 38px; font-weight:500; }
+
+	h3 {font-size:22px; font-weight:400;}
+	h4 {font-size:22px; font-weight:400;}
+	h5 {font-size:14px; font-weight:400;}
+	h6 {font-size:10px; line-height: 16px; font-weight:400;}
+}
+
+@media only screen and (min-width: 1200px) {
+	p, ul li, address {font-size:16px; font-weight:400;}
+
+	h1 {font-size:65px; font-weight:200;}
+	h2 {font-size:30px; line-height: 38px; font-weight:500;}
+	h3 {font-size:24px; font-weight:400;}
+	h4 {font-size:22px; font-weight:400; }
+	h5 {font-size:14px; font-weight:400; }
+	h6 {font-size:10px; line-height: 16px; font-weight:400;}
+}

@@ -1,0 +1,83 @@
+/*
+// START OF JPPdesigns OVERRIDES SCSS
+*/
+
+.ie8-hide {display:block;}
+.ie8 {display: none;}
+
+img {
+	border:0;
+	margin:auto;
+	padding:0;
+	vertical-align:middle;
+}
+
+::selection { background: #000; color:#FFF; text-shadow:none;}
+::-moz-selection { background:#000; color:#FFF; text-shadow:none;}
+
+/*
+////////////////////////////////////////
+////////// Padding Overrides ////////////
+////////////////////////////////////////
+*/
+
+.no-padding {padding:0px !important;}
+.no-padding-left {padding-left:0px !important;}
+.no-padding-right {padding-right:0px !important;}
+.no-padding-top {padding-top:0px !important;}
+.no-padding-bottom {padding-bottom:0px !important;}
+
+
+/*
+////////////////////////////////////////
+////////// Margin Overrides ////////////
+////////////////////////////////////////
+*/
+
+.no-margin {margin:0px !important;}
+.no-margin-left {margin-left:0px !important;}
+.no-margin-right {margin-right:0px !important;}
+.no-margin-top {margin-top:0px !important;}
+.no-margin-bottom {margin-bottom: 0px !important;}
+
+.m10 {margin-top:10px !important;}
+.m20 {margin-top:20px !important;}
+.m30 {margin-top:30px !important;}
+.m40 {margin-top:40px !important;}
+.m50 {margin-top:50px !important;}
+.m60 {margin-top:60px !important;}
+.m70 {margin-top:70px !important;}
+.m80 {margin-top:80px !important;}
+.m90 {margin-top:90px !important;}
+.m100 {margin-top:100px !important;}
+
+/*
+////////////////////////////////////////
+////////// Border Overrides ////////////
+////////////////////////////////////////
+*/
+
+.no-border {border:none !important;}
+.no-border-bottom {border-bottom:0px !important;}
+.no-border-top {border-top:0px !important;}
+.no-border-left {border-left:0px !important;}
+.no-border-right {border-right:0px !important;}
+
+/*
+////////////////////////////////////////
+////////// Border Radius Overrides ////////////
+////////////////////////////////////////
+*/
+
+.no-border-radius {@include border-radius(0px!important);}
+
+/*
+////////////////////////////////////////
+////////// Text Overrides ////////////
+////////////////////////////////////////
+*/
+
+.text-uppercase {text-transform: uppercase;}
+.text-underline {text-decoration: underline;}
+.text-bold {font-weight: bold;}
+.text-thin {font-weight:200;}
