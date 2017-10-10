@@ -1,0 +1,7 @@
+/Users/joelpp/Desktop/APTEE/adobe_prtk --tool=VolumeSerialize --provfile=/Users/joelpp/Desktop/APTEE/prov.xml 
+
+/Users/joelpp/Desktop/APTEE/adobe_prtk --tool=volumeSerialize --generate --serial=1591-4944-3273-5293-3747-8601 --regsupress=ss
+
+/Users/joelpp/Desktop/APTEE/adobe_prtk --tool=VolumeSerialize --generate --serial=1591-4944-3273-5293-3747-8601 --regsupress=ss
+
+/Users/joelpp/Desktop/APTEE/adobe_prtk --tool=VolumeSerialize --provfile=/Users/joelpp/Desktop/APTEE/prov.xml
